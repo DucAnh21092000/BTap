@@ -1,0 +1,77 @@
+
+/* Header css start */
+
+.header__ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header__li {
+    float: left;
+    color: darkgray;
+}
+
+/* Header css end */
+
+/* product css start */
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+.product__left-image{
+    position: relative;
+}
+.product__image{
+    object-fit: contain;
+    height: 650px;
+    position: relative;
+}
+.product__right.product__left,.main {
+    display: flex;
+    flex-direction: column;
+}
+.product__right,.product__left{
+    width: 100%;
+}
+.priceSale{
+    text-decoration: line-through;
+    color: darkgray;
+}
+.product__footer{
+    background-color: rgb(133, 173, 173);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 557px;
+    height: 60px;
+    z-index: 9;
+}
+.product__footer-image{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* Product css end */
+
+/* Orther Css */
+
+.active{
+    color: black;
+}
+ul{
+    padding: 0;
+}
+.main{
+    overflow: hidden;
+}
